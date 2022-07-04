@@ -7,9 +7,9 @@ const MoreChoices = () => {
         Spectrum Gives You More Choices
       </h1>
       <p className="mb-5 font-spectrum-light text-base">
-        You're already getting fast and secure Internet service. Shop additional
-        services and get limited-time offers on Spectrum TV® and Spectrum
-        Mobile.
+        You&apos;re already getting fast and secure Internet service. Shop
+        additional services and get limited-time offers on Spectrum TV® and
+        Spectrum Mobile.
       </p>
     </div>
   );
