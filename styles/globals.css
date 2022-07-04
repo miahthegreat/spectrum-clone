@@ -1,16 +1,23 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@layer base {
+  @font-face {
+    font-family: "SpectrumSans";
+    src: url("../public/fonts/SpectrumSans_W_Rg.woff2");
+  }
 
-* {
-  box-sizing: border-box;
+  @font-face {
+    font-family: "SpectrumSansBold";
+    src: url("../public/fonts/SpectrumSans_W_Bd.woff2");
+  }
+  @font-face {
+    font-family: "SpectrumSansLight";
+    src: url("../public/fonts/SpectrumSans_W_Lt.woff2");
+  }
+  @font-face {
+    font-family: "SpectrumSansMedium";
+    src: url("../public/fonts/SpectrumSans_W_Md.woff2");
+  }
 }
