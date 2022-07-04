@@ -66,7 +66,11 @@ const Footer = () => {
                         {links.map((link) => {
                           const { title, href } = link;
                           return (
-                            <a className="hover:cursor-pointer hover:underline">
+                            <a
+                              className="hover:cursor-pointer hover:underline"
+                              key={title}
+                              href={href}
+                            >
                               {title}
                             </a>
                           );

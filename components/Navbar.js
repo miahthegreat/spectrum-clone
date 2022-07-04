@@ -57,7 +57,7 @@ const Navbar = () => {
         <div className="mx-auto flex w-full items-center justify-center gap-2 border-b bg-white py-4">
           <h1 className="font-spectrum text-lg">Find Best Offers</h1>
           <div className="flex justify-start">
-            <div class="relative">
+            <div className="relative">
               <input
                 type="text"
                 id="address"
