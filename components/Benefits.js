@@ -15,7 +15,7 @@ const Benefits = () => {
               key={name}
               className="group relative border-b border-gray-900/20 text-center transition duration-200 ease-in hover:cursor-pointer hover:rounded-md hover:shadow-lg"
             >
-              <img src={img} className="mb-12" />
+              <img src={img} className="mb-12" alt={name} />
               <div className="mb-28 flex flex-col">
                 <h3 className="font-spectrum-medium uppercase tracking-wide text-[#0099d8]">
                   {name}

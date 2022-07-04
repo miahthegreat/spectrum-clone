@@ -14,7 +14,7 @@ const Navbar = () => {
               <CgMenuLeft className="translate-x-[-1] translate-y-[-1] transform text-3xl" />
             </button>
             <span>
-              <img src={logo.src} className="w-28" />
+              <img src={logo.src} className="w-28" alt="Spectrum Logo" />
             </span>
           </div>
           <div className="hidden md:block">
@@ -36,7 +36,7 @@ const Navbar = () => {
         <div className="w-full bg-white/70 p-4 shadow backdrop-blur-md md:flex md:items-center md:justify-between ld:justify-start">
           <div className="flex items-center gap-3">
             <span>
-              <img src={logo.src} className="w-36" />
+              <img src={logo.src} className="w-36" alt="Spectrum Logo" />
             </span>
           </div>
           <div className="ml-6 flex flex-col gap-1 text-sm text-gray-900">
@@ -61,40 +61,40 @@ const Navbar = () => {
               <input
                 type="text"
                 id="address"
-                class="border-1 peer block w-full appearance-none rounded-l-lg border-r-0 border-gray-300 bg-white px-2.5 pb-2.5 pt-4 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0"
+                className="border-1 peer block w-full appearance-none rounded-l-lg border-r-0 border-gray-300 bg-white px-2.5 pb-2.5 pt-4 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0"
                 placeholder=" "
               />
               <label
                 for="address"
-                class="absolute top-2 left-1 z-10 origin-[0] -translate-y-4 scale-75 transform bg-white px-2 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-blue-600 dark:text-gray-400 peer-focus:dark:text-blue-500"
+                className="absolute top-2 left-1 z-10 origin-[0] -translate-y-4 scale-75 transform bg-white px-2 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-blue-600 dark:text-gray-400 peer-focus:dark:text-blue-500"
               >
                 Address
               </label>
             </div>
-            <div class="relative">
+            <div className="relative">
               <input
                 type="text"
                 id="apt"
-                class="border-1 peer block w-full appearance-none border-r-0 border-gray-300 bg-white px-2.5 pb-2.5 pt-4 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0"
+                className="border-1 peer block w-full appearance-none border-r-0 border-gray-300 bg-white px-2.5 pb-2.5 pt-4 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0"
                 placeholder=" "
               />
               <label
                 for="apt"
-                class="absolute top-2 left-1 z-10 origin-[0] -translate-y-4 scale-75 transform bg-white px-2 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-blue-600"
+                className="absolute top-2 left-1 z-10 origin-[0] -translate-y-4 scale-75 transform bg-white px-2 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-blue-600"
               >
                 Apt/Unit
               </label>
             </div>
-            <div class="relative">
+            <div className="relative">
               <input
                 type="text"
                 id="zip"
-                class="border-1 peer block w-full appearance-none border-r-0 border-gray-300 bg-white px-2.5 pb-2.5 pt-4 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0"
+                className="border-1 peer block w-full appearance-none border-r-0 border-gray-300 bg-white px-2.5 pb-2.5 pt-4 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0"
                 placeholder=" "
               />
               <label
                 for="zip"
-                class="absolute top-2 left-1 z-10 origin-[0] -translate-y-4 scale-75 transform bg-white px-2 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-blue-600 dark:text-gray-400 peer-focus:dark:text-blue-500"
+                className="absolute top-2 left-1 z-10 origin-[0] -translate-y-4 scale-75 transform bg-white px-2 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-blue-600 dark:text-gray-400 peer-focus:dark:text-blue-500"
               >
                 Zip Code
               </label>
