@@ -10,10 +10,12 @@ const Hero = () => {
         <img
           src={smlogo.src}
           className="absolute inset-0 block h-full w-full object-contain md:hidden"
+          alt="Spectrum Mobile"
         />
         <img
           src={mdlogo.src}
           className="hidden h-full w-full object-cover md:absolute md:z-10 md:block"
+          alt="Spectrum Mobile"
         />
       </div>
       <div className="hidden md:block md:w-full" />

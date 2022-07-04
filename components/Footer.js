@@ -18,7 +18,7 @@ const Footer = () => {
       <div className="flex items-center justify-between">
         {/* Logo */}
         <div>
-          <img src={logo.src} className="w-40" />
+          <img src={logo.src} className="w-40" alt="Spectrum Logo" />
         </div>
         {/* Social Icons */}
         <div className="flex items-center gap-4 text-3xl">
