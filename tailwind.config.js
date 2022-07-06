@@ -20,6 +20,9 @@ module.exports = {
       screens: {
         ld: "992px",
       },
+      transitionProperty: {
+        width: "width",
+      },
     },
   },
   plugins: [

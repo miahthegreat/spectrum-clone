@@ -1,6 +1,7 @@
 import React from "react";
 import smlogo from "../public/hero-sm.jpeg";
 import mdlogo from "../public/hero-md.jpeg";
+import lglogo from "../public/hero-lg.jpeg";
 
 const Hero = () => {
   return (
@@ -9,12 +10,17 @@ const Hero = () => {
         <div className="absolute inset-0 z-[5] bg-gradient-to-b from-transparent to-white md:hidden" />
         <img
           src={smlogo.src}
-          className="absolute inset-0 block h-full w-full object-contain md:hidden"
+          className="absolute inset-0 block h-full w-full object-cover md:hidden"
           alt="Spectrum Mobile"
         />
         <img
           src={mdlogo.src}
-          className="hidden h-full w-full object-cover md:absolute md:z-10 md:block"
+          className="hidden h-full w-full object-cover md:absolute md:z-10 md:block lg:hidden"
+          alt="Spectrum Mobile"
+        />
+        <img
+          src={lglogo.src}
+          className="hidden h-full w-full object-cover md:absolute md:z-10 lg:block"
           alt="Spectrum Mobile"
         />
       </div>
